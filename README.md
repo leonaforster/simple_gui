@@ -6,6 +6,10 @@ Goal: design simple python GUI templates using tkinter
 Will be adding different templates with screenshots
 
 ### Gui 1:
+
+> python gui_1.png
+
+
 ![image](gui_1.png)
 
 
