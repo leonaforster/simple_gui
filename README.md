@@ -6,7 +6,7 @@ Goal: design simple python GUI templates using tkinter
 Will be adding different templates with screenshots
 
 ### Gui 1:
-[!gui_1.py]
+![image](gui_1.py)
 
 
 Templates will be the basis of more advanced versions of previous projects. e.g.
