@@ -45,12 +45,12 @@ l1.grid(row=0,column=0,sticky="nsew")"""
 image = tk.PhotoImage(file="photo.png")
 l1=tk.Label(lc, image=image)
 #l1=tk.Label(lc, text="mais dans le calme\n il est coupable de tout le bien qu’il ne fait pas.")
-l1.config(font=("liberation sans", 40),bg="cyan")
+l1.config(font=("liberation sans", 40),bg="white")
 l1.grid(row=0,column=0,sticky="nsew")
 
 #here we make the next label
-l2=tk.Label(lc, text="il est coupable")
-l2.config(font=("liberation sans", 40),bg="orange")
+l2=tk.Label(lc, text="il est coupable de tout le bien\n qu'il ne fait pas.")
+l2.config(font=("liberation sans", 40),bg="cyan")
 l2.grid(row=1,column=0,sticky="nsew")
 #but we also need to add this:
 lc.grid_rowconfigure(1, weight=1)
