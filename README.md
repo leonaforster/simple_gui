@@ -7,7 +7,7 @@ Will be adding different templates with screenshots
 
 ### Gui 1:
 
-> python gui_1.png
+> python gui_1.py
 
 
 ![image](gui_1.png)
