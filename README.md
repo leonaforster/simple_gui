@@ -5,12 +5,19 @@ Goal: design simple python GUI templates using tkinter
 
 Will be adding different templates with screenshots
 
-### Gui 1:
+### Gui 1: basic layout with an image and several labels
 
 > python gui_1.py
 
 
 ![image](gui_1.png)
+
+### Gui 2: more complex layout with button and a scrollable canvas
+
+> python gui_2.py
+
+
+![image](gui_2.png)
 
 
 Templates will be the basis of more advanced versions of previous projects. e.g.
