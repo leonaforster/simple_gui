@@ -1,6 +1,16 @@
 import tkinter as tk
 
+#----------------------------- define button behaviour: --------------------------------#
+
 root = tk.Tk()
+
+def start_reading():
+    print("analyzing images...")
+
+
+
+
+
 
 #window properties:
 root.title("demo")
@@ -117,7 +127,8 @@ b2.config(font=("liberation sans", 40),bg="white")
 b2.grid(row=0,column=1,sticky="nsew")
 rcbuttons.grid_columnconfigure(1, weight=1)
 
-b3=tk.Button(rcbuttons, text="Start\n Reading")
+#Warning: we pass a function here without calling it! So "command=start_reading" not "command=start_reading()"
+b3=tk.Button(rcbuttons, text="Start\n Reading", command=start_reading)
 b3.config(font=("liberation sans", 40),bg="lime")
 b3.grid(row=0,column=2,sticky="nsew")
 rcbuttons.grid_columnconfigure(2, weight=1)
