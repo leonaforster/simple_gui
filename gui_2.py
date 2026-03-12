@@ -12,7 +12,8 @@ def start_reading():
 
 
 
-#window properties:
+#----------------------------- define window properties: --------------------------------#
+
 root.title("demo")
 root.configure(background="yellow")
 #works, mostly deals with rescaling LATER:
