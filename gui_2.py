@@ -35,6 +35,11 @@ root.grid_columnconfigure(1, weight=1)
 lc = tk.Frame(root)
 rc = tk.Frame(root)
 
+
+#----------------------------- define left main-column: --------------------------------#
+
+
+
 #If you ever struggle with labels not filling out, make sure both col and row configure are done correctly
 lc.grid_rowconfigure(0, weight=4)#15
 lc.grid_rowconfigure(1, weight=1)
@@ -89,7 +94,8 @@ b=tk.Button(lcbuttons, text="Click")
 b.config(font=("liberation sans", 40),bg="white")
 b.grid(row=0,column=1,sticky="nsew")
 
-#right column:
+#----------------------------- define right main-column: --------------------------------#
+
 rcwindow = tk.Frame(rc)
 rcbuttons = tk.Frame(rc)
 rcwindow.grid(row=0,column=0,sticky="nsew")
